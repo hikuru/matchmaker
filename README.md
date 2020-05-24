@@ -47,10 +47,10 @@ $ python main.py --saved-model-name matchmaker_saved.h5 --train-test-mode 0
 
 ---
 
-## Citation
-1- Zagidullin, B., Aldahdooh, J., Zheng, S., Wang, W., Wang, Y., Saad, J., ... & Tang, J. (2019). DrugComb: an integrative cancer drug combination data portal. Nucleic acids research, 47(W1), W43-W51.
-2- CCao, D. S., Xu, Q. S., Hu, Q. N., & Liang, Y. Z. (2013). ChemoPy: freely available python package for computational biology and chemoinformatics. Bioinformatics, 29(8), 1092-1094.
-3- [dataset] Francesco Iorio (2015). Transcriptional Profiling of 1,000 human cancer cell lines, arrayexpress-repository, V1. https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3610.
+## References
+- Zagidullin, B., Aldahdooh, J., Zheng, S., Wang, W., Wang, Y., Saad, J., ... & Tang, J. (2019). DrugComb: an integrative cancer drug combination data portal. Nucleic acids research, 47(W1), W43-W51.
+- CCao, D. S., Xu, Q. S., Hu, Q. N., & Liang, Y. Z. (2013). ChemoPy: freely available python package for computational biology and chemoinformatics. Bioinformatics, 29(8), 1092-1094.
+- [dataset] Francesco Iorio (2015). Transcriptional Profiling of 1,000 human cancer cell lines, arrayexpress-repository, V1. https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3610.
 
 
 ## License
