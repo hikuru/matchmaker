@@ -26,7 +26,13 @@ Halil Ibrahim Kuru, Oznur Tastan, A. Ercument Cicek
 - cudnn 7.6.5 (for gpu support only)
 
 ### Data
-Download preprocessed data from <a href="https://drive.google.com/open?id=1eQpwJKiIdMI0wTz_GEa285q0GHUr6wRe">**link**</a>, extract all files into `data/`
+Raw data of drug combinations are taken from <a href="https://drugcomb.fimm.fi/">**DrugComb**</a>
+
+Drug chemical features are calculated by Chemopy
+
+RMA normalized E-MTAB-3610 untrated cell line gene expression data is downloaded from <a href="https://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Home_files/Extended%20Methods.html#8">**cancerrxgene**</a>
+
+You can download preprocessed data from <a href="https://drive.google.com/open?id=1eQpwJKiIdMI0wTz_GEa285q0GHUr6wRe">**link**</a>, extract all files into `data/`
 
 ### Training
 ```shell
@@ -40,6 +46,12 @@ $ python main.py --saved-model-name matchmaker_saved.h5 --train-test-mode 0
 ```
 
 ---
+
+## Citation
+1- Zagidullin, B., Aldahdooh, J., Zheng, S., Wang, W., Wang, Y., Saad, J., ... & Tang, J. (2019). DrugComb: an integrative cancer drug combination data portal. Nucleic acids research, 47(W1), W43-W51.
+2- CCao, D. S., Xu, Q. S., Hu, Q. N., & Liang, Y. Z. (2013). ChemoPy: freely available python package for computational biology and chemoinformatics. Bioinformatics, 29(8), 1092-1094.
+3- [dataset] Francesco Iorio (2015). Transcriptional Profiling of 1,000 human cancer cell lines, arrayexpress-repository, V1. https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3610.
+
 
 ## License
 
