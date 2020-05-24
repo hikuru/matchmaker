@@ -121,25 +121,3 @@ def trainer(model, l_rate, train, val, epo, batch_size, earlyStop, modelName,wei
 def predict(model, data):
     pred = model.predict(data)
     return pred.flatten()
-
-
-
-
-'''for trio in unique_trios:
-        inds = np.where(all_list == trio)
-        iy = np.array(inds[0])
-        ii = int(iy[0])
-        d1_name = drug1[ii]
-        d2_name = drug2[ii]
-        cname = cl[ii]
-
-        dd = comb_data.loc[comb_data["cell_line_name"]==(cname)]
-        dd = dd.loc[dd["drug_row"]==(d1_name)]
-        dd = dd.loc[dd["drug_col"]==(d2_name)]
-        score = float(dd["synergy_loewe"])
-        
-        gdsc_id = cl_gdsc["GDSC_id"][cl_gdsc["Cell_line"]==cname]
-        cell_gex.append(np.array(cl_gex[gdsc_id]).flatten())
-        drug1_chem.append(list(drug_info[d1_name]["chemicals"]))
-        drug2_chem.append(list(drug_info[d2_name]["chemicals"]))
-        synergy_scores.append(score)'''
