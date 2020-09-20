@@ -8,6 +8,7 @@ Drug combination therapies have been a viable strategy for the treatment of comp
 
 ## Authors
 Halil Ibrahim Kuru, Oznur Tastan, A. Ercument Cicek
+Our paper is available at <a href="https://www.biorxiv.org/content/10.1101/2020.05.24.113241v3">**bioRxiv**</a>
 
 ---
 
@@ -44,6 +45,9 @@ Download pretrained weights from <a href="https://drive.google.com/open?id=1QtMw
 ```shell
 $ python main.py --saved-model-name matchmaker_saved.h5 --train-test-mode 0
 ```
+
+### NEWS:
+We build a command line application <a href="https://github.com/hikuru/MatchMakerApp">**MatchMakerApp**</a>. You can play and predict synergy of any two drugs by using their PubChem CIDs.
 
 ---
 
